@@ -5,10 +5,12 @@ Module 5 - Metadata Lab
 Professor Bill Stackpole
 This program collects, analyzes, outputs and scrubs metadata off of files
 """
+import random
 import sys
 import os
 import subprocess
 import pathlib
+import pikepdf
 
 
 def list_metadata(folder_location):
@@ -73,7 +75,7 @@ def list_tags(folder_location):
         output.truncate()
         # Change to folder with files to analyze
         os.chdir(folder_location)
-        # Create set to contain tags
+        # Create set to contain tags. A set will have no duplicates
         tag_list = set()
         # Iterate over files to generate set of tags
         for file in os.listdir(folder_location):
@@ -130,12 +132,56 @@ def list_tags(folder_location):
 def scrub(folder_location):
     """
     Remove metadata from files and output the results to scrubbed_files.txt
+    NOTE: The function renames files with invalid extensions so that they can be processed.
     :param folder_location: The directory of the files we wish to analyze
     :return: None
     """
     print('Outputting to scrubbed_files.txt')
     with open('scrubbed_files.txt', 'w') as output:
-        output.write("Hello World!")
+        tools_path = str(pathlib.Path().resolve()) + "/TOOLS/"
+        # Delete previous file contents
+        output.seek(0)
+        output.truncate()
+        # Change to folder with files to analyze
+        os.chdir(folder_location)
+        for file in os.listdir(folder_location):
+            # Run Exiftool to remove all non-essential metadata
+            output.write("Exiftool removing metadata from " + file + "...\n")
+            output.write("Command used: exiftool.exe -overwrite_original -all= " + file + "\n")
+            exif_path = tools_path + "exiftool.exe"
+            # Run exiftool to get the file type and rewrite the file extension (otherwise things break)
+            (out, err) = subprocess.Popen([exif_path, file], stdout=subprocess.PIPE).communicate()
+            out = out.decode()
+            pass_protected = False
+            for line in out.split('\n'):
+                if 'File Type Extension' in line:
+                    # Get the true extension
+                    extension = line.split(':')[1].strip()
+                    # Create the new filename from the extension
+                    new_file = file.split('.')[0] + "." + extension
+                    # Fix the filename
+                    try:
+                        os.rename(file, new_file)
+                    # Put a random number on the filename to prevent conflict
+                    except FileExistsError:
+                        num = random.randint(0, 255)
+                        new_file = str(num) + new_file
+                        os.rename(file, new_file)
+                    file = new_file
+                elif 'Document is password protected' in line:
+                    # will be used to determine if we can run pikepdf. It causes errors if there is a password
+                    pass_protected = True
+            # Strip metadata
+            (out, err) = subprocess.Popen([exif_path, "-overwrite_original", "-all=", file]
+                                         , stdout=subprocess.PIPE).communicate()
+            # Linearize PDF files (so the metadata cant be recovered)
+            if file.endswith('.pdf') and not pass_protected:
+                output.write("PikePDF is linearizing the PDF...\n")
+                curr_pdf = pikepdf.Pdf.open(file, allow_overwriting_input=True)
+                curr_pdf.save(file, linearize=True)
+            # Display results by running exiftool again
+            (out, err) = subprocess.Popen([exif_path, file], stdout=subprocess.PIPE).communicate()
+            print(out.decode(), file=output)
 
 
 def main():

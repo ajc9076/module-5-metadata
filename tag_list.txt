@@ -1,0 +1,123 @@
+
+# colors
+aperture
+aperture value
+author
+background color
+bit depth
+bits per component
+bits per sample
+brightness
+brightness value
+bytes per plane
+camera manufacturer
+camera model
+camera model name
+color components
+color model
+color space
+color type
+colour space
+comment
+components configuration
+components per pixel
+compression
+contrast
+create date
+creationdate
+creator
+custom rendered
+date digitized
+date modified
+date taken
+date/time original
+depth
+digital zoom
+digital zoom ratio
+directory
+encoding process
+encrypted
+encryption
+exif byte order
+exif image height
+exif image length
+exif image width
+exif version
+exiftool version number
+exposure mode
+exposure time
+f number
+f-number
+file access date/time
+file creation date/time
+file modification date/time
+file name
+file permissions
+file size
+file type
+file type extension
+filter
+flash
+flashpix version
+focal length
+form
+format
+height
+image height
+image size
+image width
+interlace
+interoperability index
+interoperability offset
+interoperability version
+iop index
+iop version
+keywords
+language
+light source
+linearized
+make
+max aperture
+max aperture value
+megapixels
+metadata
+metering mode
+mime type
+moddate
+modify date
+name
+optimized
+orientation
+page
+page count
+page size
+pages
+pdf version
+pixel units
+pixels per unit x
+pixels per unit y
+producer
+resolution unit
+saturation
+scene capture type
+scene type
+sharpness
+shutter speed
+shutter speed value
+tagged
+tagged pdf
+thumbnail image
+thumbnail length
+thumbnail offset
+title
+user access
+warning
+white balance
+width
+x resolution
+xdpi
+y cb cr positioning
+y cb cr sub sampling
+y resolution
+ycbcr positioning
+ydpi

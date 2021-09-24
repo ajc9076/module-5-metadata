@@ -1,0 +1,206 @@
+Exiftool removing metadata from 105Second.jpg...
+Command used: exiftool.exe -overwrite_original -all= 105Second.jpg
+ExifTool Version Number         : 12.30
+File Name                       : 105Second.jpg
+Directory                       : .
+File Size                       : 2.1 MiB
+File Modification Date/Time     : 2021:09:24 17:57:06-04:00
+File Access Date/Time           : 2021:09:24 18:00:14-04:00
+File Creation Date/Time         : 2021:09:24 17:56:54-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Image Width                     : 3264
+Image Height                    : 2448
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Image Size                      : 3264x2448
+Megapixels                      : 8.0
+
+Exiftool removing metadata from 111Secrets.pdf...
+Command used: exiftool.exe -overwrite_original -all= 111Secrets.pdf
+ExifTool Version Number         : 12.30
+File Name                       : 111Secrets.pdf
+Directory                       : .
+File Size                       : 90 KiB
+File Modification Date/Time     : 2017:02:16 18:26:48-05:00
+File Access Date/Time           : 2021:09:24 18:00:15-04:00
+File Creation Date/Time         : 2021:09:24 17:56:54-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.6
+Linearized                      : No
+Encryption                      : Standard V4.4 (128-bit)
+User Access                     : Print, Modify, Copy, Fill forms, Extract, Print high-res
+Warning                         : Document is password protected (use Password option)
+
+Exiftool removing metadata from 167First.pdf...
+Command used: exiftool.exe -overwrite_original -all= 167First.pdf
+PikePDF is linearizing the PDF...
+ExifTool Version Number         : 12.30
+File Name                       : 167First.pdf
+Directory                       : .
+File Size                       : 181 KiB
+File Modification Date/Time     : 2021:09:24 18:00:16-04:00
+File Access Date/Time           : 2021:09:24 18:00:16-04:00
+File Creation Date/Time         : 2021:09:24 17:56:54-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.5
+Linearized                      : Yes
+Language                        : en-US
+Tagged PDF                      : Yes
+Page Count                      : 1
+
+Exiftool removing metadata from 253Secrets.pdf...
+Command used: exiftool.exe -overwrite_original -all= 253Secrets.pdf
+ExifTool Version Number         : 12.30
+File Name                       : 253Secrets.pdf
+Directory                       : .
+File Size                       : 90 KiB
+File Modification Date/Time     : 2017:02:16 18:26:40-05:00
+File Access Date/Time           : 2021:09:24 18:00:18-04:00
+File Creation Date/Time         : 2021:09:24 17:56:54-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.6
+Linearized                      : No
+Encryption                      : Standard V4.4 (128-bit)
+User Access                     : Print, Modify, Copy, Fill forms, Extract, Print high-res
+Warning                         : Document is password protected (use Password option)
+
+Exiftool removing metadata from 78Secrets.pdf...
+Command used: exiftool.exe -overwrite_original -all= 78Secrets.pdf
+ExifTool Version Number         : 12.30
+File Name                       : 78Secrets.pdf
+Directory                       : .
+File Size                       : 90 KiB
+File Modification Date/Time     : 2017:02:16 18:26:42-05:00
+File Access Date/Time           : 2021:09:24 18:00:19-04:00
+File Creation Date/Time         : 2021:09:24 17:56:54-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.6
+Linearized                      : No
+Encryption                      : Standard V4.4 (128-bit)
+User Access                     : Print, Modify, Copy, Fill forms, Extract, Print high-res
+Warning                         : Document is password protected (use Password option)
+
+Exiftool removing metadata from First.jpg...
+Command used: exiftool.exe -overwrite_original -all= First.jpg
+ExifTool Version Number         : 12.30
+File Name                       : First.jpg
+Directory                       : .
+File Size                       : 2.1 MiB
+File Modification Date/Time     : 2021:09:24 17:57:03-04:00
+File Access Date/Time           : 2021:09:24 18:00:20-04:00
+File Creation Date/Time         : 2021:09:24 17:56:54-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Image Width                     : 3264
+Image Height                    : 2448
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Image Size                      : 3264x2448
+Megapixels                      : 8.0
+
+Exiftool removing metadata from First.pdf...
+Command used: exiftool.exe -overwrite_original -all= First.pdf
+PikePDF is linearizing the PDF...
+ExifTool Version Number         : 12.30
+File Name                       : First.pdf
+Directory                       : .
+File Size                       : 181 KiB
+File Modification Date/Time     : 2021:09:24 18:00:21-04:00
+File Access Date/Time           : 2021:09:24 18:00:21-04:00
+File Creation Date/Time         : 2021:09:24 17:56:54-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.5
+Linearized                      : Yes
+Language                        : en-US
+Tagged PDF                      : Yes
+Page Count                      : 1
+
+Exiftool removing metadata from Second.jpg...
+Command used: exiftool.exe -overwrite_original -all= Second.jpg
+ExifTool Version Number         : 12.30
+File Name                       : Second.jpg
+Directory                       : .
+File Size                       : 2.1 MiB
+File Modification Date/Time     : 2021:09:24 17:57:05-04:00
+File Access Date/Time           : 2021:09:24 18:00:22-04:00
+File Creation Date/Time         : 2021:09:24 17:56:54-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Image Width                     : 3264
+Image Height                    : 2448
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Image Size                      : 3264x2448
+Megapixels                      : 8.0
+
+Exiftool removing metadata from Second.png...
+Command used: exiftool.exe -overwrite_original -all= Second.png
+ExifTool Version Number         : 12.30
+File Name                       : Second.png
+Directory                       : .
+File Size                       : 13 KiB
+File Modification Date/Time     : 2021:09:24 17:57:07-04:00
+File Access Date/Time           : 2021:09:24 18:00:23-04:00
+File Creation Date/Time         : 2021:09:24 17:56:54-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : PNG
+File Type Extension             : png
+MIME Type                       : image/png
+Image Width                     : 640
+Image Height                    : 400
+Bit Depth                       : 8
+Color Type                      : RGB with Alpha
+Compression                     : Deflate/Inflate
+Filter                          : Adaptive
+Interlace                       : Noninterlaced
+Background Color                : 255 255 255
+Image Size                      : 640x400
+Megapixels                      : 0.256
+
+Exiftool removing metadata from Secrets.pdf...
+Command used: exiftool.exe -overwrite_original -all= Secrets.pdf
+ExifTool Version Number         : 12.30
+File Name                       : Secrets.pdf
+Directory                       : .
+File Size                       : 90 KiB
+File Modification Date/Time     : 2017:02:16 18:26:46-05:00
+File Access Date/Time           : 2021:09:24 18:00:24-04:00
+File Creation Date/Time         : 2021:09:24 17:56:54-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.6
+Linearized                      : No
+Encryption                      : Standard V4.4 (128-bit)
+User Access                     : Print, Modify, Copy, Fill forms, Extract, Print high-res
+Warning                         : Document is password protected (use Password option)
+
