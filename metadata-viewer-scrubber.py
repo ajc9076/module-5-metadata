@@ -87,9 +87,9 @@ def list_tags(folder_location):
                 if 'File Type Extension' in line:
                     line = line.split('             : ')
                     extension = line[1].strip()
-                    tag_list.add(line[0].strip())
+                    tag_list.add(line[0].strip().lower())
                 else:
-                    tag_list.add(line.split(':')[0].strip())
+                    tag_list.add(line.split(':')[0].strip().lower())
             # Run additional tools based on the file type
             if extension == 'pdf':
                 pdf_path = tools_path + "pdfinfo.exe"
@@ -97,7 +97,7 @@ def list_tags(folder_location):
                 out = out.decode('cp1252')
                 # Add tags to the set
                 for line in out.split('\n'):
-                    tag_list.add(line.split(':')[0].strip())
+                    tag_list.add(line.split(':')[0].strip().lower())
             if extension == 'jpg' or extension == 'png':
                 nconvert_path = tools_path + "nconvert.exe"
                 (out, err) = subprocess.Popen([nconvert_path, "-fullinfo", file], stdout=subprocess.PIPE).communicate()
@@ -109,17 +109,22 @@ def list_tags(folder_location):
                     if line.endswith('Success'):
                         start_meta_read = True
                     # Don't add organizational headers
-                    if not (line.startswith('EXIF:') or line.startswith('  Camera:') or line.startswith('  Image:') or
+                    elif not (line.startswith('EXIF:') or line.startswith('  Camera:') or line.startswith('  Image:') or
                             line.startswith('  IOP:') or line.startswith('  Makernotes:') or line.startswith('  GPS:')
                             or line.startswith('  Thumbnail:')) and start_meta_read:
                         # Parse the line
-                        line = line.split(':')[0].strip()
+                        line = line.split(':')[0].strip().lower()
                         # Exception case for splitting by parentheses
                         if 'Page(s)' in line:
                             tag_list.add(line)
                         # Final parse to add to tag list
                         else:
                             tag_list.add(line.split('(')[0].strip().split('[')[0].strip())
+        # Create list, sort it alphabetically, and write it to the file
+        alphabetical_tags = sorted(tag_list)
+        for entry in alphabetical_tags:
+            output.write(entry)
+            output.write('\n')
 
 
 def scrub(folder_location):
