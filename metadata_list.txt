@@ -1,78 +1,76 @@
 Exiftool analyzing First.jpg...
-ExifTool Version Number         : 12.30
-File Name                       : First.jpg
-Directory                       : .
-File Size                       : 2.2 MiB
-File Modification Date/Time     : 2017:02:16 18:26:38-05:00
-File Access Date/Time           : 2021:09:24 10:09:40-04:00
-File Creation Date/Time         : 2021:09:22 14:05:52-04:00
-File Permissions                : -rw-rw-rw-
-File Type                       : JPEG
-File Type Extension             : jpg
-MIME Type                       : image/jpeg
-Exif Byte Order                 : Big-endian (Motorola, MM)
-Make                            : Motorola
-Camera Model Name               : DROID RAZR HD
-Orientation                     : Horizontal (normal)
-X Resolution                    : 72
-Y Resolution                    : 72
-Resolution Unit                 : inches
-Modify Date                     : 2013:04:27 11:38:50
-Y Cb Cr Positioning             : Centered
-Exposure Time                   : 1/1471
-F Number                        : 2.4
-Exif Version                    : 0220
-Date/Time Original              : 2013:04:27 11:38:50
-Create Date                     : 2013:04:27 11:38:50
-Components Configuration        : Y, Cb, Cr, -
-Shutter Speed Value             : 1
-Aperture Value                  : 2.4
-Brightness Value                : undef
-Max Aperture Value              : 2.4
-Metering Mode                   : Average
-Light Source                    : D50
-Flash                           : No Flash
-Focal Length                    : 4.4 mm
-Warning                         : [minor] Unrecognized MakerNotes
-Flashpix Version                : 0100
-Color Space                     : sRGB
-Exif Image Width                : 3264
-Exif Image Height               : 2448
-Interoperability Index          : R98 - DCF basic file (sRGB)
-Interoperability Version        : 0100
-Scene Type                      : Directly photographed
-Custom Rendered                 : Custom
-Exposure Mode                   : Auto bracket
-White Balance                   : Auto
-Digital Zoom Ratio              : 1
-Scene Capture Type              : Standard
-Contrast                        : Normal
-Saturation                      : Normal
-Sharpness                       : Soft
-Compression                     : JPEG (old-style)
-Thumbnail Offset                : 970
-Thumbnail Length                : 26375
-Image Width                     : 3264
-Image Height                    : 2448
-Encoding Process                : Baseline DCT, Huffman coding
-Bits Per Sample                 : 8
-Color Components                : 3
-Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
-Aperture                        : 2.4
-Image Size                      : 3264x2448
-Megapixels                      : 8.0
-Shutter Speed                   : 1/1471
-Thumbnail Image                 : (Binary data 26375 bytes, use -b option to extract)
-Focal Length                    : 4.4 mm
-
-
+Command used: exiftool.exe First.jpg
+ExifTool Version Number         : 12.30
+File Name                       : First.jpg
+Directory                       : .
+File Size                       : 2.2 MiB
+File Modification Date/Time     : 2017:02:16 18:26:38-05:00
+File Access Date/Time           : 2021:09:25 18:16:09-04:00
+File Creation Date/Time         : 2021:09:25 18:10:24-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Exif Byte Order                 : Big-endian (Motorola, MM)
+Make                            : Motorola
+Camera Model Name               : DROID RAZR HD
+Orientation                     : Horizontal (normal)
+X Resolution                    : 72
+Y Resolution                    : 72
+Resolution Unit                 : inches
+Modify Date                     : 2013:04:27 11:38:50
+Y Cb Cr Positioning             : Centered
+Exposure Time                   : 1/1471
+F Number                        : 2.4
+Exif Version                    : 0220
+Date/Time Original              : 2013:04:27 11:38:50
+Create Date                     : 2013:04:27 11:38:50
+Components Configuration        : Y, Cb, Cr, -
+Shutter Speed Value             : 1
+Aperture Value                  : 2.4
+Brightness Value                : undef
+Max Aperture Value              : 2.4
+Metering Mode                   : Average
+Light Source                    : D50
+Flash                           : No Flash
+Focal Length                    : 4.4 mm
+Warning                         : [minor] Unrecognized MakerNotes
+Flashpix Version                : 0100
+Color Space                     : sRGB
+Exif Image Width                : 3264
+Exif Image Height               : 2448
+Interoperability Index          : R98 - DCF basic file (sRGB)
+Interoperability Version        : 0100
+Scene Type                      : Directly photographed
+Custom Rendered                 : Custom
+Exposure Mode                   : Auto bracket
+White Balance                   : Auto
+Digital Zoom Ratio              : 1
+Scene Capture Type              : Standard
+Contrast                        : Normal
+Saturation                      : Normal
+Sharpness                       : Soft
+Compression                     : JPEG (old-style)
+Thumbnail Offset                : 970
+Thumbnail Length                : 26375
+Image Width                     : 3264
+Image Height                    : 2448
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Aperture                        : 2.4
+Image Size                      : 3264x2448
+Megapixels                      : 8.0
+Shutter Speed                   : 1/1471
+Thumbnail Image                 : (Binary data 26375 bytes, use -b option to extract)
+Focal Length                    : 4.4 mm
 --------------------------------------------------------------------------
 NConvert analyzing First.jpg...
+Command used: nconvert.exe -fullinfo First.jpg
 ** NCONVERT v7.95 (c) 1991-2021 Pierre-E Gougelet (Sep 22 2021/10:16:47) **
         Version for Windows Xp/Vista/7 x64  (All rights reserved)
 ** This is freeware software (for non-commercial use)
-
-
 First.jpg : Success
     Format               : JPEG TrueColor (v1.1)
     Name                 : jpeg
@@ -140,176 +138,168 @@ EXIF:
     Resolution unit      (0x0128): Inch
     Thumbnail offset     (0x0201): 958
     Thumbnail length     (0x0202): 26375
-
-
 --------------------------------------------------------------------------
 Exiftool analyzing First.pdf...
-ExifTool Version Number         : 12.30
-File Name                       : First.pdf
-Directory                       : .
-File Size                       : 184 KiB
-File Modification Date/Time     : 2017:02:16 18:26:42-05:00
-File Access Date/Time           : 2021:09:24 10:09:41-04:00
-File Creation Date/Time         : 2021:09:22 14:05:52-04:00
-File Permissions                : -rw-rw-rw-
-File Type                       : PDF
-File Type Extension             : pdf
-MIME Type                       : application/pdf
-PDF Version                     : 1.5
-Linearized                      : No
-Page Count                      : 1
-Language                        : en-US
-Tagged PDF                      : Yes
-Title                           : Tea Article
-Author                          : Wikipedia Community
-Keywords                        : Tea, Wikipedia, Beverages
-Creator                         : Microsoft® Word 2013
-Create Date                     : 2013:06:26 05:13:22-04:00
-Modify Date                     : 2013:06:26 05:13:22-04:00
-Producer                        : Microsoft® Word 2013
-
-
+Command used: exiftool.exe First.pdf
+ExifTool Version Number         : 12.30
+File Name                       : First.pdf
+Directory                       : .
+File Size                       : 184 KiB
+File Modification Date/Time     : 2017:02:16 18:26:42-05:00
+File Access Date/Time           : 2021:09:25 18:16:10-04:00
+File Creation Date/Time         : 2021:09:25 18:10:24-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.5
+Linearized                      : No
+Page Count                      : 1
+Language                        : en-US
+Tagged PDF                      : Yes
+Title                           : Tea Article
+Author                          : Wikipedia Community
+Keywords                        : Tea, Wikipedia, Beverages
+Creator                         : Microsoft® Word 2013
+Create Date                     : 2013:06:26 05:13:22-04:00
+Modify Date                     : 2013:06:26 05:13:22-04:00
+Producer                        : Microsoft® Word 2013
 --------------------------------------------------------------------------
 pdfinfo analyzing First.pdf...
-Title:          Tea Article
-Keywords:       Tea Wikipedia Beverages
-Author:         Wikipedia Community
-Creator:        Microsoft® Word 2013
-Producer:       Microsoft® Word 2013
-CreationDate:   Wed Jun 26 05:13:22 2013
-ModDate:        Wed Jun 26 05:13:22 2013
-Tagged:         yes
-Form:           none
-Pages:          1
-Encrypted:      no
-Page size:      612 x 792 pts (letter) (rotated 0 degrees)
-File size:      188261 bytes
-Optimized:      no
-PDF version:    1.5
-
-
+Command used: pdfinfo.exe First.pdf
+Title:          Tea Article
+Keywords:       Tea Wikipedia Beverages
+Author:         Wikipedia Community
+Creator:        Microsoft® Word 2013
+Producer:       Microsoft® Word 2013
+CreationDate:   Wed Jun 26 05:13:22 2013
+ModDate:        Wed Jun 26 05:13:22 2013
+Tagged:         yes
+Form:           none
+Pages:          1
+Encrypted:      no
+Page size:      612 x 792 pts (letter) (rotated 0 degrees)
+File size:      188261 bytes
+Optimized:      no
+PDF version:    1.5
 --------------------------------------------------------------------------
 Exiftool analyzing First.png...
-ExifTool Version Number         : 12.30
-File Name                       : First.png
-Directory                       : .
-File Size                       : 184 KiB
-File Modification Date/Time     : 2017:02:16 18:26:46-05:00
-File Access Date/Time           : 2021:09:24 10:09:41-04:00
-File Creation Date/Time         : 2021:09:22 14:05:52-04:00
-File Permissions                : -rw-rw-rw-
-File Type                       : PDF
-File Type Extension             : pdf
-MIME Type                       : application/pdf
-PDF Version                     : 1.5
-Linearized                      : No
-Page Count                      : 1
-Language                        : en-US
-Tagged PDF                      : Yes
-Title                           : Tea Article
-Author                          : Wikipedia Community
-Keywords                        : Tea, Wikipedia, Beverages
-Creator                         : Microsoft® Word 2013
-Create Date                     : 2013:06:26 05:13:22-04:00
-Modify Date                     : 2013:06:26 05:13:22-04:00
-Producer                        : Microsoft® Word 2013
-
-
+Command used: exiftool.exe First.png
+ExifTool Version Number         : 12.30
+File Name                       : First.png
+Directory                       : .
+File Size                       : 184 KiB
+File Modification Date/Time     : 2017:02:16 18:26:46-05:00
+File Access Date/Time           : 2021:09:25 18:16:10-04:00
+File Creation Date/Time         : 2021:09:25 18:10:24-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.5
+Linearized                      : No
+Page Count                      : 1
+Language                        : en-US
+Tagged PDF                      : Yes
+Title                           : Tea Article
+Author                          : Wikipedia Community
+Keywords                        : Tea, Wikipedia, Beverages
+Creator                         : Microsoft® Word 2013
+Create Date                     : 2013:06:26 05:13:22-04:00
+Modify Date                     : 2013:06:26 05:13:22-04:00
+Producer                        : Microsoft® Word 2013
 --------------------------------------------------------------------------
 pdfinfo analyzing First.png...
-Title:          Tea Article
-Keywords:       Tea Wikipedia Beverages
-Author:         Wikipedia Community
-Creator:        Microsoft® Word 2013
-Producer:       Microsoft® Word 2013
-CreationDate:   Wed Jun 26 05:13:22 2013
-ModDate:        Wed Jun 26 05:13:22 2013
-Tagged:         yes
-Form:           none
-Pages:          1
-Encrypted:      no
-Page size:      612 x 792 pts (letter) (rotated 0 degrees)
-File size:      188261 bytes
-Optimized:      no
-PDF version:    1.5
-
-
+Command used: pdfinfo.exe First.png
+Title:          Tea Article
+Keywords:       Tea Wikipedia Beverages
+Author:         Wikipedia Community
+Creator:        Microsoft® Word 2013
+Producer:       Microsoft® Word 2013
+CreationDate:   Wed Jun 26 05:13:22 2013
+ModDate:        Wed Jun 26 05:13:22 2013
+Tagged:         yes
+Form:           none
+Pages:          1
+Encrypted:      no
+Page size:      612 x 792 pts (letter) (rotated 0 degrees)
+File size:      188261 bytes
+Optimized:      no
+PDF version:    1.5
 --------------------------------------------------------------------------
 Exiftool analyzing Second.jpg...
-ExifTool Version Number         : 12.30
-File Name                       : Second.jpg
-Directory                       : .
-File Size                       : 2.2 MiB
-File Modification Date/Time     : 2017:02:16 18:26:40-05:00
-File Access Date/Time           : 2021:09:24 10:09:42-04:00
-File Creation Date/Time         : 2021:09:22 14:05:52-04:00
-File Permissions                : -rw-rw-rw-
-File Type                       : JPEG
-File Type Extension             : jpg
-MIME Type                       : image/jpeg
-Exif Byte Order                 : Big-endian (Motorola, MM)
-Make                            : Motorola
-Camera Model Name               : DROID RAZR HD
-Orientation                     : Horizontal (normal)
-X Resolution                    : 72
-Y Resolution                    : 72
-Resolution Unit                 : inches
-Modify Date                     : 2013:04:27 11:38:50
-Y Cb Cr Positioning             : Centered
-Exposure Time                   : 1/1471
-F Number                        : 2.4
-Exif Version                    : 0220
-Date/Time Original              : 2013:04:27 11:38:50
-Create Date                     : 2013:04:27 11:38:50
-Components Configuration        : Y, Cb, Cr, -
-Shutter Speed Value             : 1
-Aperture Value                  : 2.4
-Brightness Value                : undef
-Max Aperture Value              : 2.4
-Metering Mode                   : Average
-Light Source                    : D50
-Flash                           : No Flash
-Focal Length                    : 4.4 mm
-Warning                         : [minor] Unrecognized MakerNotes
-Flashpix Version                : 0100
-Color Space                     : sRGB
-Exif Image Width                : 3264
-Exif Image Height               : 2448
-Interoperability Index          : R98 - DCF basic file (sRGB)
-Interoperability Version        : 0100
-Scene Type                      : Directly photographed
-Custom Rendered                 : Custom
-Exposure Mode                   : Auto bracket
-White Balance                   : Auto
-Digital Zoom Ratio              : 1
-Scene Capture Type              : Standard
-Contrast                        : Normal
-Saturation                      : Normal
-Sharpness                       : Soft
-Compression                     : JPEG (old-style)
-Thumbnail Offset                : 970
-Thumbnail Length                : 26375
-Image Width                     : 3264
-Image Height                    : 2448
-Encoding Process                : Baseline DCT, Huffman coding
-Bits Per Sample                 : 8
-Color Components                : 3
-Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
-Aperture                        : 2.4
-Image Size                      : 3264x2448
-Megapixels                      : 8.0
-Shutter Speed                   : 1/1471
-Thumbnail Image                 : (Binary data 26375 bytes, use -b option to extract)
-Focal Length                    : 4.4 mm
-
-
+Command used: exiftool.exe Second.jpg
+ExifTool Version Number         : 12.30
+File Name                       : Second.jpg
+Directory                       : .
+File Size                       : 2.2 MiB
+File Modification Date/Time     : 2017:02:16 18:26:40-05:00
+File Access Date/Time           : 2021:09:25 18:16:10-04:00
+File Creation Date/Time         : 2021:09:25 18:10:24-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Exif Byte Order                 : Big-endian (Motorola, MM)
+Make                            : Motorola
+Camera Model Name               : DROID RAZR HD
+Orientation                     : Horizontal (normal)
+X Resolution                    : 72
+Y Resolution                    : 72
+Resolution Unit                 : inches
+Modify Date                     : 2013:04:27 11:38:50
+Y Cb Cr Positioning             : Centered
+Exposure Time                   : 1/1471
+F Number                        : 2.4
+Exif Version                    : 0220
+Date/Time Original              : 2013:04:27 11:38:50
+Create Date                     : 2013:04:27 11:38:50
+Components Configuration        : Y, Cb, Cr, -
+Shutter Speed Value             : 1
+Aperture Value                  : 2.4
+Brightness Value                : undef
+Max Aperture Value              : 2.4
+Metering Mode                   : Average
+Light Source                    : D50
+Flash                           : No Flash
+Focal Length                    : 4.4 mm
+Warning                         : [minor] Unrecognized MakerNotes
+Flashpix Version                : 0100
+Color Space                     : sRGB
+Exif Image Width                : 3264
+Exif Image Height               : 2448
+Interoperability Index          : R98 - DCF basic file (sRGB)
+Interoperability Version        : 0100
+Scene Type                      : Directly photographed
+Custom Rendered                 : Custom
+Exposure Mode                   : Auto bracket
+White Balance                   : Auto
+Digital Zoom Ratio              : 1
+Scene Capture Type              : Standard
+Contrast                        : Normal
+Saturation                      : Normal
+Sharpness                       : Soft
+Compression                     : JPEG (old-style)
+Thumbnail Offset                : 970
+Thumbnail Length                : 26375
+Image Width                     : 3264
+Image Height                    : 2448
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Aperture                        : 2.4
+Image Size                      : 3264x2448
+Megapixels                      : 8.0
+Shutter Speed                   : 1/1471
+Thumbnail Image                 : (Binary data 26375 bytes, use -b option to extract)
+Focal Length                    : 4.4 mm
 --------------------------------------------------------------------------
 NConvert analyzing Second.jpg...
+Command used: nconvert.exe -fullinfo Second.jpg
 ** NCONVERT v7.95 (c) 1991-2021 Pierre-E Gougelet (Sep 22 2021/10:16:47) **
         Version for Windows Xp/Vista/7 x64  (All rights reserved)
 ** This is freeware software (for non-commercial use)
-
-
 Second.jpg : Success
     Format               : JPEG TrueColor (v1.1)
     Name                 : jpeg
@@ -377,84 +367,80 @@ EXIF:
     Resolution unit      (0x0128): Inch
     Thumbnail offset     (0x0201): 958
     Thumbnail length     (0x0202): 26375
-
-
 --------------------------------------------------------------------------
 Exiftool analyzing Second.pdf...
-ExifTool Version Number         : 12.30
-File Name                       : Second.pdf
-Directory                       : .
-File Size                       : 2.2 MiB
-File Modification Date/Time     : 2017:02:16 18:26:44-05:00
-File Access Date/Time           : 2021:09:24 10:09:42-04:00
-File Creation Date/Time         : 2021:09:22 14:05:52-04:00
-File Permissions                : -rw-rw-rw-
-File Type                       : JPEG
-File Type Extension             : jpg
-MIME Type                       : image/jpeg
-Exif Byte Order                 : Big-endian (Motorola, MM)
-Make                            : Motorola
-Camera Model Name               : DROID RAZR HD
-Orientation                     : Horizontal (normal)
-X Resolution                    : 72
-Y Resolution                    : 72
-Resolution Unit                 : inches
-Modify Date                     : 2013:04:27 11:38:50
-Y Cb Cr Positioning             : Centered
-Exposure Time                   : 1/1471
-F Number                        : 2.4
-Exif Version                    : 0220
-Date/Time Original              : 2013:04:27 11:38:50
-Create Date                     : 2013:04:27 11:38:50
-Components Configuration        : Y, Cb, Cr, -
-Shutter Speed Value             : 1
-Aperture Value                  : 2.4
-Brightness Value                : undef
-Max Aperture Value              : 2.4
-Metering Mode                   : Average
-Light Source                    : D50
-Flash                           : No Flash
-Focal Length                    : 4.4 mm
-Warning                         : [minor] Unrecognized MakerNotes
-Flashpix Version                : 0100
-Color Space                     : sRGB
-Exif Image Width                : 3264
-Exif Image Height               : 2448
-Interoperability Index          : R98 - DCF basic file (sRGB)
-Interoperability Version        : 0100
-Scene Type                      : Directly photographed
-Custom Rendered                 : Custom
-Exposure Mode                   : Auto bracket
-White Balance                   : Auto
-Digital Zoom Ratio              : 1
-Scene Capture Type              : Standard
-Contrast                        : Normal
-Saturation                      : Normal
-Sharpness                       : Soft
-Compression                     : JPEG (old-style)
-Thumbnail Offset                : 970
-Thumbnail Length                : 26375
-Image Width                     : 3264
-Image Height                    : 2448
-Encoding Process                : Baseline DCT, Huffman coding
-Bits Per Sample                 : 8
-Color Components                : 3
-Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
-Aperture                        : 2.4
-Image Size                      : 3264x2448
-Megapixels                      : 8.0
-Shutter Speed                   : 1/1471
-Thumbnail Image                 : (Binary data 26375 bytes, use -b option to extract)
-Focal Length                    : 4.4 mm
-
-
+Command used: exiftool.exe Second.pdf
+ExifTool Version Number         : 12.30
+File Name                       : Second.pdf
+Directory                       : .
+File Size                       : 2.2 MiB
+File Modification Date/Time     : 2017:02:16 18:26:44-05:00
+File Access Date/Time           : 2021:09:25 18:16:10-04:00
+File Creation Date/Time         : 2021:09:25 18:10:24-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Exif Byte Order                 : Big-endian (Motorola, MM)
+Make                            : Motorola
+Camera Model Name               : DROID RAZR HD
+Orientation                     : Horizontal (normal)
+X Resolution                    : 72
+Y Resolution                    : 72
+Resolution Unit                 : inches
+Modify Date                     : 2013:04:27 11:38:50
+Y Cb Cr Positioning             : Centered
+Exposure Time                   : 1/1471
+F Number                        : 2.4
+Exif Version                    : 0220
+Date/Time Original              : 2013:04:27 11:38:50
+Create Date                     : 2013:04:27 11:38:50
+Components Configuration        : Y, Cb, Cr, -
+Shutter Speed Value             : 1
+Aperture Value                  : 2.4
+Brightness Value                : undef
+Max Aperture Value              : 2.4
+Metering Mode                   : Average
+Light Source                    : D50
+Flash                           : No Flash
+Focal Length                    : 4.4 mm
+Warning                         : [minor] Unrecognized MakerNotes
+Flashpix Version                : 0100
+Color Space                     : sRGB
+Exif Image Width                : 3264
+Exif Image Height               : 2448
+Interoperability Index          : R98 - DCF basic file (sRGB)
+Interoperability Version        : 0100
+Scene Type                      : Directly photographed
+Custom Rendered                 : Custom
+Exposure Mode                   : Auto bracket
+White Balance                   : Auto
+Digital Zoom Ratio              : 1
+Scene Capture Type              : Standard
+Contrast                        : Normal
+Saturation                      : Normal
+Sharpness                       : Soft
+Compression                     : JPEG (old-style)
+Thumbnail Offset                : 970
+Thumbnail Length                : 26375
+Image Width                     : 3264
+Image Height                    : 2448
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Aperture                        : 2.4
+Image Size                      : 3264x2448
+Megapixels                      : 8.0
+Shutter Speed                   : 1/1471
+Thumbnail Image                 : (Binary data 26375 bytes, use -b option to extract)
+Focal Length                    : 4.4 mm
 --------------------------------------------------------------------------
 NConvert analyzing Second.pdf...
+Command used: nconvert.exe -fullinfo Second.pdf
 ** NCONVERT v7.95 (c) 1991-2021 Pierre-E Gougelet (Sep 22 2021/10:16:47) **
         Version for Windows Xp/Vista/7 x64  (All rights reserved)
 ** This is freeware software (for non-commercial use)
-
-
 Second.pdf : Success
     Format               : JPEG TrueColor (v1.1)
     Name                 : jpeg
@@ -522,44 +508,41 @@ EXIF:
     Resolution unit      (0x0128): Inch
     Thumbnail offset     (0x0201): 958
     Thumbnail length     (0x0202): 26375
-
-
 --------------------------------------------------------------------------
 Exiftool analyzing Second.png...
-ExifTool Version Number         : 12.30
-File Name                       : Second.png
-Directory                       : .
-File Size                       : 13 KiB
-File Modification Date/Time     : 2017:02:16 18:26:48-05:00
-File Access Date/Time           : 2021:09:24 10:09:42-04:00
-File Creation Date/Time         : 2021:09:22 14:05:52-04:00
-File Permissions                : -rw-rw-rw-
-File Type                       : PNG
-File Type Extension             : png
-MIME Type                       : image/png
-Image Width                     : 640
-Image Height                    : 400
-Bit Depth                       : 8
-Color Type                      : RGB with Alpha
-Compression                     : Deflate/Inflate
-Filter                          : Adaptive
-Interlace                       : Noninterlaced
-Background Color                : 255 255 255
-Pixels Per Unit X               : 2835
-Pixels Per Unit Y               : 2835
-Pixel Units                     : meters
-Modify Date                     : 2013:07:31 14:39:29
-Comment                         : Secret bank robbery plans
-Image Size                      : 640x400
-Megapixels                      : 0.256
-
-
+Command used: exiftool.exe Second.png
+ExifTool Version Number         : 12.30
+File Name                       : Second.png
+Directory                       : .
+File Size                       : 13 KiB
+File Modification Date/Time     : 2017:02:16 18:26:48-05:00
+File Access Date/Time           : 2021:09:25 18:16:10-04:00
+File Creation Date/Time         : 2021:09:25 18:10:24-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : PNG
+File Type Extension             : png
+MIME Type                       : image/png
+Image Width                     : 640
+Image Height                    : 400
+Bit Depth                       : 8
+Color Type                      : RGB with Alpha
+Compression                     : Deflate/Inflate
+Filter                          : Adaptive
+Interlace                       : Noninterlaced
+Background Color                : 255 255 255
+Pixels Per Unit X               : 2835
+Pixels Per Unit Y               : 2835
+Pixel Units                     : meters
+Modify Date                     : 2013:07:31 14:39:29
+Comment                         : Secret bank robbery plans
+Image Size                      : 640x400
+Megapixels                      : 0.256
 --------------------------------------------------------------------------
 NConvert analyzing Second.png...
+Command used: nconvert.exe -fullinfo Second.png
 ** NCONVERT v7.95 (c) 1991-2021 Pierre-E Gougelet (Sep 22 2021/10:16:47) **
         Version for Windows Xp/Vista/7 x64  (All rights reserved)
 ** This is freeware software (for non-commercial use)
-
 10  IHDR 13 
 29  bKGD 6 
 3b  pHYs 9 
@@ -567,7 +550,6 @@ NConvert analyzing Second.png...
 63  iTXt 37 
 94  IDAT 8192 
 20a0  IDAT 5045 
-
 Second.png : Success
     Format               : Portable Network Graphics
     Name                 : png
@@ -585,102 +567,92 @@ Second.png : Success
     Ydpi                 : 72
     Page(s)              : 1
     Comment              : Secret bank robbery plans
-
-
 --------------------------------------------------------------------------
 Exiftool analyzing Secrets.jpeg...
-ExifTool Version Number         : 12.30
-File Name                       : Secrets.jpeg
-Directory                       : .
-File Size                       : 90 KiB
-File Modification Date/Time     : 2017:02:16 18:26:40-05:00
-File Access Date/Time           : 2021:09:24 10:09:42-04:00
-File Creation Date/Time         : 2021:09:22 14:05:53-04:00
-File Permissions                : -rw-rw-rw-
-File Type                       : PDF
-File Type Extension             : pdf
-MIME Type                       : application/pdf
-PDF Version                     : 1.6
-Linearized                      : No
-Encryption                      : Standard V4.4 (128-bit)
-User Access                     : Print, Modify, Copy, Fill forms, Extract, Print high-res
-Warning                         : Document is password protected (use Password option)
-
-
+Command used: exiftool.exe Secrets.jpeg
+ExifTool Version Number         : 12.30
+File Name                       : Secrets.jpeg
+Directory                       : .
+File Size                       : 90 KiB
+File Modification Date/Time     : 2017:02:16 18:26:40-05:00
+File Access Date/Time           : 2021:09:25 18:16:10-04:00
+File Creation Date/Time         : 2021:09:25 18:10:24-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.6
+Linearized                      : No
+Encryption                      : Standard V4.4 (128-bit)
+User Access                     : Print, Modify, Copy, Fill forms, Extract, Print high-res
+Warning                         : Document is password protected (use Password option)
 --------------------------------------------------------------------------
 pdfinfo analyzing Secrets.jpeg...
-
-
+Command used: pdfinfo.exe Secrets.jpeg
 --------------------------------------------------------------------------
 Exiftool analyzing Secrets.jpg...
-ExifTool Version Number         : 12.30
-File Name                       : Secrets.jpg
-Directory                       : .
-File Size                       : 90 KiB
-File Modification Date/Time     : 2017:02:16 18:26:42-05:00
-File Access Date/Time           : 2021:09:24 10:09:43-04:00
-File Creation Date/Time         : 2021:09:22 14:05:53-04:00
-File Permissions                : -rw-rw-rw-
-File Type                       : PDF
-File Type Extension             : pdf
-MIME Type                       : application/pdf
-PDF Version                     : 1.6
-Linearized                      : No
-Encryption                      : Standard V4.4 (128-bit)
-User Access                     : Print, Modify, Copy, Fill forms, Extract, Print high-res
-Warning                         : Document is password protected (use Password option)
-
-
+Command used: exiftool.exe Secrets.jpg
+ExifTool Version Number         : 12.30
+File Name                       : Secrets.jpg
+Directory                       : .
+File Size                       : 90 KiB
+File Modification Date/Time     : 2017:02:16 18:26:42-05:00
+File Access Date/Time           : 2021:09:25 18:16:10-04:00
+File Creation Date/Time         : 2021:09:25 18:10:24-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.6
+Linearized                      : No
+Encryption                      : Standard V4.4 (128-bit)
+User Access                     : Print, Modify, Copy, Fill forms, Extract, Print high-res
+Warning                         : Document is password protected (use Password option)
 --------------------------------------------------------------------------
 pdfinfo analyzing Secrets.jpg...
-
-
+Command used: pdfinfo.exe Secrets.jpg
 --------------------------------------------------------------------------
 Exiftool analyzing Secrets.pdf...
-ExifTool Version Number         : 12.30
-File Name                       : Secrets.pdf
-Directory                       : .
-File Size                       : 90 KiB
-File Modification Date/Time     : 2017:02:16 18:26:46-05:00
-File Access Date/Time           : 2021:09:24 10:09:43-04:00
-File Creation Date/Time         : 2021:09:22 14:05:53-04:00
-File Permissions                : -rw-rw-rw-
-File Type                       : PDF
-File Type Extension             : pdf
-MIME Type                       : application/pdf
-PDF Version                     : 1.6
-Linearized                      : No
-Encryption                      : Standard V4.4 (128-bit)
-User Access                     : Print, Modify, Copy, Fill forms, Extract, Print high-res
-Warning                         : Document is password protected (use Password option)
-
-
+Command used: exiftool.exe Secrets.pdf
+ExifTool Version Number         : 12.30
+File Name                       : Secrets.pdf
+Directory                       : .
+File Size                       : 90 KiB
+File Modification Date/Time     : 2017:02:16 18:26:46-05:00
+File Access Date/Time           : 2021:09:25 18:16:07-04:00
+File Creation Date/Time         : 2021:09:25 18:10:24-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.6
+Linearized                      : No
+Encryption                      : Standard V4.4 (128-bit)
+User Access                     : Print, Modify, Copy, Fill forms, Extract, Print high-res
+Warning                         : Document is password protected (use Password option)
 --------------------------------------------------------------------------
 pdfinfo analyzing Secrets.pdf...
-
-
+Command used: pdfinfo.exe Secrets.pdf
 --------------------------------------------------------------------------
 Exiftool analyzing Secrets.png...
-ExifTool Version Number         : 12.30
-File Name                       : Secrets.png
-Directory                       : .
-File Size                       : 90 KiB
-File Modification Date/Time     : 2017:02:16 18:26:48-05:00
-File Access Date/Time           : 2021:09:24 10:09:44-04:00
-File Creation Date/Time         : 2021:09:22 14:05:52-04:00
-File Permissions                : -rw-rw-rw-
-File Type                       : PDF
-File Type Extension             : pdf
-MIME Type                       : application/pdf
-PDF Version                     : 1.6
-Linearized                      : No
-Encryption                      : Standard V4.4 (128-bit)
-User Access                     : Print, Modify, Copy, Fill forms, Extract, Print high-res
-Warning                         : Document is password protected (use Password option)
-
-
+Command used: exiftool.exe Secrets.png
+ExifTool Version Number         : 12.30
+File Name                       : Secrets.png
+Directory                       : .
+File Size                       : 90 KiB
+File Modification Date/Time     : 2017:02:16 18:26:48-05:00
+File Access Date/Time           : 2021:09:25 18:16:10-04:00
+File Creation Date/Time         : 2021:09:25 18:10:24-04:00
+File Permissions                : -rw-rw-rw-
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.6
+Linearized                      : No
+Encryption                      : Standard V4.4 (128-bit)
+User Access                     : Print, Modify, Copy, Fill forms, Extract, Print high-res
+Warning                         : Document is password protected (use Password option)
 --------------------------------------------------------------------------
 pdfinfo analyzing Secrets.png...
-
-
+Command used: pdfinfo.exe Secrets.png
 --------------------------------------------------------------------------

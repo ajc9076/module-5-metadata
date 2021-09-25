@@ -1,0 +1,54 @@
+
+# colors
+background color
+bit depth
+bits per component
+bits per sample
+bytes per plane
+color components
+color model
+color type
+components per pixel
+compression
+depth
+directory
+encoding process
+encrypted
+encryption
+exiftool version number
+file access date/time
+file creation date/time
+file modification date/time
+file name
+file permissions
+file size
+file type
+file type extension
+filter
+form
+format
+height
+image height
+image size
+image width
+interlace
+language
+linearized
+megapixels
+mime type
+name
+optimized
+orientation
+page
+page count
+page size
+pages
+pdf version
+tagged
+tagged pdf
+user access
+warning
+width
+xdpi
+y cb cr sub sampling
+ydpi

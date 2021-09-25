@@ -1,0 +1,69 @@
+aperture
+aperture value
+author
+brightness
+brightness value
+camera manufacturer
+camera model
+camera model name
+color space
+colour space
+comment
+components configuration
+contrast
+create date
+creationdate
+creator
+custom rendered
+date digitized
+date modified
+date taken
+date/time original
+digital zoom
+digital zoom ratio
+exif byte order
+exif image height
+exif image length
+exif image width
+exif version
+exposure mode
+exposure time
+f number
+f-number
+flash
+flashpix version
+focal length
+interoperability index
+interoperability offset
+interoperability version
+iop index
+iop version
+keywords
+light source
+make
+max aperture
+max aperture value
+metadata
+metering mode
+moddate
+modify date
+pixel units
+pixels per unit x
+pixels per unit y
+producer
+resolution unit
+saturation
+scene capture type
+scene type
+sharpness
+shutter speed
+shutter speed value
+thumbnail image
+thumbnail length
+thumbnail offset
+title
+white balance
+x resolution
+y cb cr positioning
+y resolution
+ycbcr positioning
