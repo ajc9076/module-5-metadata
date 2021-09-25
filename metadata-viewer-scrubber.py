@@ -78,6 +78,7 @@ def list_metadata(folder_location):
             out = out.decode()
             print(out, file=output)
             # get the true file type
+            extension = '.default'
             for line in out.split('\n'):
                 if 'File Type Extension' in line:
                     extension = line.split('             : ')[1].strip()
